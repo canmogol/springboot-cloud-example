@@ -1,0 +1,6 @@
+language: java
+jdk:
+- oraclejdk8
+script:
+  mvn clean install
+on_start: never     # options: [always|never|change]

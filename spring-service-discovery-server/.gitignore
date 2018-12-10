@@ -1,0 +1,137 @@
+######################
+# Project Specific
+######################
+
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+.metadata/**
+/bin/**
+/tmp/**
+/tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.settings
+.loadpath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Maven
+######################
+/log/**
+/target/**
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+.svn/**
+*.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/build/**
+/spring_loaded/**
+/deploy/**
+
+######################
+# Logs
+######################
+*.log
+logs
+logs/*
+tmp
+tmp/*
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+.history
+.checkstyle
+.ekstazi
+.sonar
+.sonar/*
+output.txt
+hs_err_pid*
+.mtj.tmp/**
+
+######################
+# Gradle Wrapper
+######################
+gradle/**
+
+######################
+# Maven Wrapper
+######################
+.mvn/**
+
+######################
+# ESLint
+######################
+.eslintcache
