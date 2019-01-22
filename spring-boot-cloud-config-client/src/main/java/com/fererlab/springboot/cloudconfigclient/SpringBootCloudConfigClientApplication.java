@@ -33,7 +33,7 @@ public class SpringBootCloudConfigClientApplication {
      * @return default label
      */
     @GetMapping(value = "/labels/default")
-    public String label() {
+    public final String label() {
         return String.format("%s, %s", properties.getFirst(), properties.getSecond());
     }
 

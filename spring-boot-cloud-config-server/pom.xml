@@ -86,7 +86,7 @@
                             <encoding>UTF-8</encoding>
                             <consoleOutput>true</consoleOutput>
                             <failsOnError>true</failsOnError>
-                            <suppressionsLocation>checkstyle-suppressions.xml</suppressionsLocation>
+                            <suppressionsLocation>checkstyle-suppression.xml</suppressionsLocation>
                         </configuration>
                         <goals>
                             <goal>check</goal>

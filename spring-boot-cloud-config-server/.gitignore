@@ -90,7 +90,8 @@ local.properties
 /log/**
 /target/**
 .mvn/**
-
+mvnw
+mvnw.cmd
 
 ######################
 # Gradle
